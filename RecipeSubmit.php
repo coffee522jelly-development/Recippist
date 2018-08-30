@@ -51,7 +51,8 @@ try{
 	echo mb_convert_encoding($e->getMessage(),'UTF-8','SJIS-win');
 	die();
 }
-
+/*登録が完了した場合*/
 $a = "登録完了です。";
 print ($a);
+print '<a href="index.html">topへ戻る</a>';
 ?>
