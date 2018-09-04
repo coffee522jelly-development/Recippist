@@ -7,9 +7,15 @@ h1{
   height:300px;
 }
 #header{
-  margin-top:200px;
+  margin-top:100px;
   text-align: center;
 }
-#panel{
+#panel div{
+  margin-left:-500px;
+}
+#buttons{
   text-align: center;
+}
+.input{
+text-align:center;
 }

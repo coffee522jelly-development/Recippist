@@ -68,5 +68,5 @@ try{
 /*登録が完了した場合*/
 $a = "登録完了です。";
 print ($a);
-print '<a class="btn btn-success" href="../index.html">topへ戻る</a>';
+print '<a class="btn btn-success" href="../main.php">topへ戻る</a>';
 ?>

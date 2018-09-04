@@ -42,8 +42,10 @@ try {
 $dbh = null;
 ?>
 
+<div class="input">
 <p>どのレシピを削除しますか？(番号)</p>
 <form action="Delete1.php" id="id" method="post">
-<input type="text" name="id">
+<input class ="form-control" placeholder="削除する番号(id)" type="text" name="id">
 <button class="btn btn-primary" type='submit' name='action' value='send' action="Delete1.php">送信</button>
+</div>
 </form>

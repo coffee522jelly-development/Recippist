@@ -43,4 +43,4 @@ $dbh = null;
 ?>
 
 <p>削除が完了しました。</p>
-<a class="btn btn-success" href="../index.html">topに戻る</a>
+<a class="btn btn-success" href="../main.php">topに戻る</a>
